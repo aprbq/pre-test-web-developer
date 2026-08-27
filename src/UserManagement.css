@@ -1,0 +1,122 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #000000;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 25px 0;
+  color: #000000;
+}
+
+.section {
+  margin-bottom: 30px;
+  border: 1px solid #cccccc;
+  padding: 15px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+  color: #000000;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #999999;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.header-row {
+  background: #f0f0f0;
+  border-bottom: 2px solid #999999;
+}
+
+.th {
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  color: #000000;
+  border-right: 1px solid #dddddd;
+}
+
+.th:last-child, .td:last-child {
+  border-right: none;
+}
+
+.row {
+  border-bottom: 1px solid #dddddd;
+}
+
+.td {
+  padding: 10px;
+  border-right: 1px solid #dddddd;
+  color: #000000;
+}
+
+.input-cell {
+  width: 95%;
+  padding: 6px;
+  border: 1px solid #999999;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+
+.button {
+  padding: 8px 16px;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.btn-small {
+  padding: 5px 10px;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.btn-cancel, 
+.btn-delete {
+  background: #666666;
+}
+
+.button:hover, .btn-small:hover {
+  opacity: 0.8;
+}
