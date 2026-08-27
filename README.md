@@ -1,6 +1,6 @@
 # Pre Test Web Developer - User form
 
-โปรเจกต์ระบบจัดการข้อมูลผู้ใช้ พัฒนาด้วย React และ TypeScript (Frontend only)
+โปรเจกต์ระบบจัดการข้อมูลผู้ใช้ พัฒนาด้วย React (Frontend only)
 
 ### รันโปรเจกต์
 1. **Clone โปรเจกต์**
